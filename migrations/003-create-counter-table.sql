@@ -1,5 +1,5 @@
-CREATE TABLE IF NOT EXISTS counter(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT,
+create table if not exists counter(
+    id integer PRIMARY KEY AUTOINCREMENT,
+    username text,
     counter integer
 );
